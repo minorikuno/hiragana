@@ -168,13 +168,12 @@ display: flex;
   .header-right a {
      width:30px;
   }
-  /** header **/
-  /** top/main **/
+
   .top-heading h2 {
     font-size: 15px;
     text-align: left;
   }
-  /** top/main **/
+
 /** For tablette **/
 }
 
@@ -183,14 +182,43 @@ display: flex;
   .header-logo {
     margin-left: 0;
     flex: auto;
+    
   }
   .header-logo h1 {
     font-size: 15px;
+  }
+  
+  .header-right {
+    flex: auto;
+    text-align: center;
+  }
+  
+  li {
+    list-style: none;
+    float: left;
+    margin: 3px;
+    font-size: 10px;
+  }
+  .top-heading h2 {
+    font-size: 15px;
+    text-align: left;
+    letter-spacing: normal;
+  }
+  .touche-box{
+    margin: 0 auto;
+    height: 100%;
+    width:100%;
+  }
+  .fausses-touches, button {
+    font-size: 10px;
+  }
 
-
+  .hand {
+    position: absolute;
+    top:18px;
+    left:20px;
+    font-size: 0px;
+  }
 /** For telephone **/
 }
-
-
-
 /** media queries **/
