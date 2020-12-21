@@ -182,14 +182,16 @@ display: flex;
   .header-logo {
     margin-left: 0;
     flex: auto;
+    width:50%
     
   }
   .header-logo h1 {
-    font-size: 15px;
+    font-size: 17px;
   }
   
   .header-right {
     flex: auto;
+    width:50%;
     text-align: center;
   }
   
@@ -211,12 +213,14 @@ display: flex;
   }
   .fausses-touches, button {
     font-size: 10px;
+    padding: 3px;
+    margin:5px;
   }
 
   .hand {
     position: absolute;
     top:18px;
-    left:20px;
+    left:18px;
     font-size: 0px;
   }
 /** For telephone **/
