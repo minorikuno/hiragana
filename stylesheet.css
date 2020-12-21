@@ -180,7 +180,13 @@ display: flex;
 
 /** For telephone **/
 @media(max-width:670px){
-  
+  .header-logo {
+    margin-left: 0;
+    flex: auto;
+    width:70%;
+  }
+  .header-logo h1 {
+    font-size: 15px;
 
 
 /** For telephone **/
