@@ -138,6 +138,7 @@ display: flex;
   top:20px;
   left:40px;
   font-size: 0px;
+  z-index: 100;
 }
 
 .exemple-input {
