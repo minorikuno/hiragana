@@ -1,1 +1,2 @@
-# hiragana
+# hiragana buttons
+HTML CSS jQuery
