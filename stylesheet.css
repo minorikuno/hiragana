@@ -77,7 +77,6 @@ li {
 }
 
 .top-heading {
-  margin-top: 100px;
   text-align: center;
 }
 
@@ -169,7 +168,6 @@ li {
   /* padding: 20px 0; */
   width: 300px;
   height: 230px;
-
 }
 
 .hiraganaInput {
@@ -230,11 +228,13 @@ li {
      width:30px;
   }
   .touche-box {
-    width: 95%
+    width: 95%;
+    padding: 0;
   }
   .fausses-touches {
     margin: 15px 5px;
     padding: 15px 0;
+    width: 5vw
   }
 
 /** For tablette **/
@@ -271,6 +271,7 @@ li {
 
   .top-box {
     width: 100%;
+    padding: 2px;
   }
 
   .touche-box{
@@ -279,6 +280,13 @@ li {
   .responsive-wrapper {
     flex-basis: 100%;
   }
+
+
+#exemple{
+  font-size: 100px;
+  width: 200px;
+  height: 150px;
+}
 
   .fausses-touches, button {
     font-size: 18px;
