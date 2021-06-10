@@ -45,9 +45,8 @@ header {
   width:70%;
 }
 .header-logo h1 {
-  font-weight:normal ;
-  line-height: 60px;
-  margin-top: 0;
+  font-weight: normal ;
+  margin: 0;
 }
 
 .header-right {
@@ -84,6 +83,7 @@ li {
 
 .top-heading h2 {
   letter-spacing: 0.6em;
+  margin-bottom: 5px;
 }
 
 .touche-box{
@@ -93,7 +93,8 @@ li {
  background-color:rgba(252,235,243,0.6);
  display: flex;
  justify-content: center;
- 
+ padding: 30px 20px;
+ border-radius: 10px;
 }
 
 .fausses-touches, button {
@@ -102,9 +103,9 @@ li {
   border-radius: 5px;
   border: none;
   background-color:white;
-  width:40px;
-  padding:8px 0;
-  margin: 2px;
+  width: 4vw;
+  padding: 10px 0;
+  margin: 5px;
   flex: auto;
   color:rgb(153,123,173);
   font-size: 18px;
@@ -156,20 +157,59 @@ li {
 }
 
 
-.exemple-input {
-  margin: 0 auto;
+#exemple{
+  display: block;
+  font-size: 100px;
   text-align: center;
-  padding: 20px 0;
-  width:60%;
+  border: none;
+  border-radius: 10px;
+  resize: none;
+  box-shadow :0 2px 2px rgba(0,0,0,0.2), 0 -4px 5px -2px rgba(228,164,176,0.7) ;
+  text-align: center;
+  /* padding: 20px 0; */
+  width: 300px;
+  height: 230px;
+
 }
 
-.exemple-input textarea {
-  width:80px;
-  height:70px;
-  font-size: 40px;
-  text-align: center;
-  
+.hiraganaInput {
+  display: flex;
+  flex-direction: column;
 }
+
+#clear {
+  width: 99%;
+  margin: 5px auto;
+}
+
+/* sketchpad */
+#sketchpadapp {
+  /* Prevent nearby text being highlighted when accidentally dragging mouse outside confines of the canvas */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#sketchpad {
+  /* float:left; */
+  border: 1px solid rgb(153,123,173);
+  border-radius:4px;
+  position:relative; /* Necessary for correct mouse co-ords in Firefox */
+
+  border-radius: 10px;
+  box-shadow :0 2px 2px rgba(0,0,0,0.2), 0 -4px 5px -2px rgba(228,164,176,0.7) ;
+}
+
+.sketchArea {
+  display: flex;
+  width: 80%;
+  margin: 20px auto;
+  justify-content: space-evenly;
+}
+
+
 /** ~t o p **/
 
 /** media queries **/
@@ -220,7 +260,6 @@ li {
   }
   .top-heading h2 {
     font-size: 15px;
-    text-align: left;
     letter-spacing: normal;
   }
   .touche-box{
@@ -244,3 +283,5 @@ li {
 /** For telephone **/
 }
 /** media queries **/
+
+
